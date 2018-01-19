@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1513057581 source:c:\users\崇智\desktop\compiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"grammar.c"
+	"final_result.c"
+
+1513051623 c:\users\崇智\desktop\compiler\wordtest.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"error.c"
+	"mid_code.c"
+
+1511699662 source:c:\users\崇智\desktop\编译实验系列\词法分析\15061153_张崇智_词法分析和设计\compiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"wordtest.c"
+
+1511791831 c:\users\崇智\desktop\编译实验系列\词法分析\15061153_张崇智_词法分析和设计\compiler\wordtest.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1513052016 c:\users\崇智\desktop\compiler\grammar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"wordtest.c"
+
+1513043964 c:\users\崇智\desktop\compiler\error.c
+	<stdio.h>
+
+1512805182 c:\users\崇智\desktop\compiler\mid_code.c
+	<stdio.h>
+
+1513052059 c:\users\崇智\desktop\compiler\final_result.c
+	<stdio.h>
+
+1515862066 source:c:\users\phoenix\desktop\compiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"grammar.c"
+	"final_result.c"
+	"final_result2.c"
+
+1515859993 c:\users\phoenix\desktop\compiler\grammar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"wordtest.c"
+	"optimizer.c"
+
+1513051624 c:\users\phoenix\desktop\compiler\wordtest.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"error.c"
+	"mid_code.c"
+
+1515380112 c:\users\phoenix\desktop\compiler\error.c
+	<stdio.h>
+
+1515862031 c:\users\phoenix\desktop\compiler\mid_code.c
+	<stdio.h>
+
+1515421305 c:\users\phoenix\desktop\compiler\final_result.c
+	<stdio.h>
+
+1515823912 c:\users\phoenix\desktop\compiler\optimizer.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+
+1515861480 c:\users\phoenix\desktop\compiler\final_result2.c
+	<stdio.h>
+

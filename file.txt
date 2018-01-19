@@ -1,0 +1,87 @@
+const int TEN = +10;
+const char c = 'A';
+int febo_list[10];          		
+char array[10];           
+int febo(int index){
+	if(index < 0)
+		return(-1);
+	switch(index){
+		case 0:
+			return(1);
+		case 1:
+			return(1);
+	}
+	return(febo(index-1)+febo(index-2));	
+}
+void char_assignment(){
+	char input_char;
+	int index;
+	scanf(input_char);
+	index = 0;
+	do{
+		array[index] = input_char;
+		index = index + 1;
+	}while(index < TEN)
+	return;
+}
+char get_array_char(){
+	return(array[0]);
+}
+void calculate(){
+	const int ZERO = 0;
+	char m;
+	int x,y;
+	scanf(m,x,y);
+	switch(m){
+		case '+':
+			printf(x+y);
+		case '-':
+			printf(x-y);
+		case '*':
+			printf(x*y);
+		case '/':
+		{
+			if(y ==  ZERO){
+				printf("the divisor should not be 0!");
+				return;
+			}
+			printf(x/y);
+		}
+	}
+	printf("finish calculating.");
+	return;
+}
+void calc_repeatedly(){
+	int time;
+	scanf(time);
+	if(time >= 1){
+		do{
+			calculate();
+			time = time - 1;
+		}while(time > 0)
+	}
+}
+void main()
+{
+    int input,i;
+	printf("please input the number from 1 to 10:");
+	scanf(input);
+	if(input > TEN){
+		printf("the input scale is too large");
+		return;
+	}
+	if(input < 0){
+		printf("wrong index num :",input);
+		return;
+	}
+	i = 0;
+	do{
+		febo_list[i] = febo(i);
+	    printf(febo_list[i]);
+		i = i + 1;
+	}while(i < input)
+	calc_repeatedly();
+	char_assignment();
+	printf(get_array_char());
+	return;
+}

@@ -1,0 +1,31 @@
+int array1[10],array2[10],array3[10];
+void main(){
+   int test_switch,i;
+   scanf(test_switch);
+   switch(test_switch){
+       case 1:{
+		   i = 0;
+		   do{
+			   array1[i] = test_switch*i;
+			   printf(array1[i]);
+			   i= i+1;
+		   }while(i<10)
+	   }
+	   case 2:{
+		   i = 0;
+		   do{
+			   array2[i] = test_switch*i;
+			   printf(array2[i]);
+			   i= i+1;
+		   }while(i<10)
+	   }
+	   case 3:{
+		   i = 0;
+		   do{
+			   array3[i] = test_switch*i;
+			   printf(array3[i]);
+                           i= i+1;
+		   }while(i<10)
+	   }
+   }
+}

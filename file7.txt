@@ -1,0 +1,6 @@
+const int a = 1;
+void main(){
+    a = 5
+    a = a + 1;
+    
+}
