@@ -1,4 +1,0 @@
-void main(){
-    fibo();
-    a = a +c;
-}
